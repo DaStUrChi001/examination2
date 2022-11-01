@@ -1,0 +1,109 @@
+section#showcase .container {
+    display: flex;
+    height: 615px;
+}
+h1 {
+    margin-top: 108px;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 68px;
+    text-transform: capitalize;
+    color: #002A48;
+}
+.left span {
+    margin-top: 4px;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 60px;
+    text-transform: capitalize;
+    color: #002A48;
+}
+.left p {
+    width: 480px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #242B33;
+}
+.hero-link {
+    display: flex;
+    margin-top: 34px;
+    gap: 25px;
+}
+.view {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: flex-end;
+    color: #003459;
+    padding: 14px 28px;
+    gap: 8px;
+    border: 1.5px solid #003459;
+    border-radius: 57px;
+}
+.explore {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 14px 35px;
+    gap: 10px;
+    background: #003459;
+    border-radius: 57px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FDFDFD;
+}
+.absolute0, .absolute1, .absolute2, .absolute3, .absolute4, .absolute5, .absolute6, 
+.absolute7, .absolute8 {
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+.absolute0 {
+    display: block;
+    top: 84px;
+    left: 530px;
+    z-index: 10;
+}
+.absolute1 {
+    display: block;
+    z-index: 1;
+    top: 180px;
+    left: 115px;
+}
+.absolute2 {
+    display: block;
+    top: 148px;
+    left: 757px;
+}
+.absolute3 {
+    display: block;
+    top: 200px;
+    left: 728px;
+}
+.absolute4 {
+    display: block;
+    top: 209px;
+    left: 727px;
+}
+.absolute5 {
+    display: block;
+    top: 280px;
+    left: 596px;
+}
+.absolute6 {
+    display: block;
+    top: 205px;
+    left: 610px;
+}
+.absolute7 {
+    display: block;
+    top: -670px;
+    left: -305px;
+}
+.absolute8 {
+    display: block;
+    top: 595px;
+    left: -91px;
+}

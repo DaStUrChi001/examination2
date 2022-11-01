@@ -1,0 +1,32 @@
+
+section#adoption {
+
+    .adoption-wrapper {
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        margin-top: 40px;
+        padding: 0 100px;
+        background: #FFB775;
+        border-radius: 20px;
+    }
+    p {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+        color: #242B33;
+    }
+
+    .position4, .position5 {
+        position: absolute;
+        z-index: 1;
+    }
+    .position4 {
+        top: 0;
+        left: 0;
+    }
+    .position5 {
+        bottom: 0;
+        right: 0;
+    }
+}

@@ -1,0 +1,59 @@
+
+section#explore {
+
+    .explore-wrapper {
+        
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        margin-top: 60px;
+        padding: 0 100px;
+        background-color: #003459;
+        border-radius: 20px;
+    }
+
+    .right {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        padding: 64px 100px;
+    }
+
+    p {
+        margin-top: 8px;
+        width: 394px;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+        text-align: right;
+        color: #242B33;
+    }
+}
+h2 {
+    margin-top: 64px;
+    font-weight: 800;
+    font-size: 52px;
+    line-height: 68px;
+    text-transform: capitalize;
+    color: #003459;
+}
+h3 {
+    margin-top: 2px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    text-transform: capitalize;
+    color: #003459;
+}
+.position2, .position3 {
+    position: absolute;
+    z-index: 1;
+}
+.position2 {
+    bottom: 0;
+    left: 0;
+}
+.position3 {
+    top: -170px;
+    left: 600px;
+}
